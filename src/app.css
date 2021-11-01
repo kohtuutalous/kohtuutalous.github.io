@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #2d2d2d;
+        color: #ffffff;
+    }
+    a {
+        color: #58A6FF
+    }
+}
+
+#svelte {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10% 30px;
+}
